@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN PAGE</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<div id=outerdiv class="fluid-container">
+		<p><img class="smaller-img" src="./loginimg.jpg"></p>
+		<div id=innerdiv class="well">
+			<b>Username:</b>
+			<p>
+				<input id="usernameId" type="text"></input>
+			</p>
+			<b>Password:</b>
+			<p>
+				<input id="passwordId" type="password" onkeypress="if (event.keyCode == 13) document.getElementById('logInBtn').click()"></input>
+			</p>
+			<button id="logInBtn" onclick="logIn()" class="btn btn-default"><b>Log in</b></button>
+		</div>
+		<p id="output"></p>
+	</div>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./login.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<script type="text/javascript" src="./login.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+</body>
+</html>

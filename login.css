@@ -1,0 +1,16 @@
+#outerdiv{
+	padding: 100px;
+}
+
+#innerdiv{
+	max-height: 300px;
+	max-width: 220px;
+}
+
+.smaller-img{
+	width: 220px;
+}
+
+#logInBtn{
+	background-color: #DBE2EF;
+}
