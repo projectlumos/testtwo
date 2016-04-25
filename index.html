@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./dec.css">
+</head>
+<body style = "background-color: #E8EAF6">
+	<div class = "container-fluid">
+		<div class = "center_box" align="center">
+			
+			<img style = "margin-top: 20px;" src = "./tuser.jpg"></img><br>
+			<input class = "iparea u_box"  type = "text" id = "username" onkeypress= "keyHit()" placeholder = "Username"></input><br>
+			<input class = "iparea p_box"  type = "password" id = "password" onkeypress = "keyHit()" placeholder = "Password"></input><br>
+			<button style = "margin: 5px;" id = "signin" type = "submit" class = "btn btn-primary" onclick= "myFunction()">Sign In</button>
+			<div id = "status" class = "response">
+			
+			</div>
+			<div id = "attempts" class = "response">
+				5 attempts left
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+<script type = "text/javascript" src="./makecall.js"></script>
