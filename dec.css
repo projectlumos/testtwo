@@ -1,0 +1,36 @@
+.center_box{
+    width: 300px ;
+    height:350px ;
+    border-size: 2px;
+    border-color: green;
+    border-width: 2px;
+    border-radius: 15px;
+    position: absolute;
+    background-color: #C5CAE9;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.iparea{
+	border-color: #9FA8DA;
+	width: 275px;
+}
+
+.u_box{
+	margin-top: 20px;
+}
+
+.p_box{
+	margin: 5px;
+}
+
+.response{
+	font-family: Comic Sans MS;
+}
+
+.heading{
+	font-family:  = Comic Sans MS;
+}
