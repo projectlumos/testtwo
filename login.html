@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="login.css">
+  <script type="text/javascript"src="login.js">	</script>
+  <head>
+	   <title>Login</title>
+  </head>
+  <body>
+    <div style='position:absolute;z-index:-1;left:0;top:0;width:100%;height:100%'>
+        <img src='login.jpg' style='width:100%;height:100%'/>
+    </div>  
+    <center>
+      <p>
+        <p>&nbsp</p>
+        <p>&nbsp</p>
+        <p><font size="34" class="logn" color="black">Login</font></p>
+        <a id="Name">&nbsp</a>
+        <a id="oops" class="oops">&nbsp</a>
+      </p>
+      <p>
+        <input type="textbox" class="txt" style="width: 300px; height:20px;" onKeyDown="if(event.keyCode==13) login()" placeholder="Enter ID" id="txt1" />
+      </p>
+      <p>
+        <input type="button" value="NEXT" onclick="login()" class="myButton"  id="logi" />
+      </p>
+      <p>
+        <a onClick="notyou();" class="small" style="cursor: pointer; cursor: hand;" id="NotYou">&nbsp</a>
+      </p>
+    </center>
+  </body>
+</html>
