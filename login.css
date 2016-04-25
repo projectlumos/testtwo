@@ -1,0 +1,53 @@
+.back{
+    position: absolute;
+    z-index: -1;
+} 
+.myButton {
+	background-color:#2e98e8;;
+	border: transparent;
+    color: #ffffff;
+	font-family:Arial;
+    font-size:15px;
+    padding:3px 20px;
+    width: 150px;
+    height: 30px;
+}
+.small{
+    color: dodgerblue;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 13px;
+}
+.oops{
+    color: red;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 13px;
+}
+.pb{
+    position:relative;overflow:hidden
+}
+.logn{
+    font-family: Papyrus,fantasy;
+    font-size: 50px;
+    font-weight: 100%;
+}
+.gren { 
+    color:   green; 
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    font-size: 50px; 
+    line-height: 160px; 
+    font-weight: normal; 
+    margin-bottom: 0px; 
+    margin-top: 40px; t
+    ext-align: center; 
+    text-shadow: 0 1px 1px #fff; 
+}
+.large{
+    font-size: 70px;
+}
+.txt {
+    font-size: 15px;
+    padding: 10px;
+    opacity: 0.6;
+    border: none;
+    border-bottom: solid 2px #2e98e8;
+}
